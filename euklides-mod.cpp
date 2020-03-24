@@ -5,6 +5,7 @@ int a, b, r = 1;
 int main()
 {
     cin >> a >> b;
+    cout << endl;
     while (a != 0 && b != 0)
     {
         r = max(a, b) % min(a, b);
