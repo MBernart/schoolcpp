@@ -14,6 +14,7 @@ void sieve(bool *tab, uint n)
 int main(void)
 {
     int n;
+    cout << "Range from 2 to: ";
     cin >> n;
     bool *tab = new bool[n + 1];
     for (int i = 0; i < n + 1; i++)
