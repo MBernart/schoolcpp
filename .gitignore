@@ -1,0 +1,9 @@
+# vs code folder
+.vscode
+
+# executable file
+main
+
+# Cmake build file
+*/build
+
