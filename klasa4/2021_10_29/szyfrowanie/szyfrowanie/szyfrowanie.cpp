@@ -1,19 +1,12 @@
-// gra_w_zycie.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// szyfrowanie.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include <fstream>
-#include <string>
-#include "TheLifeGame.cpp"
-
-using namespace std;
-
+#include "Cipher.h"
 int main()
 {
-	TheLifeGame theLifeGame = TheLifeGame();
-	theLifeGame.readCurrentGenerationFromFile("Dane/gra.txt");
-	theLifeGame.calculateNthGeneration(30);
-	theLifeGame.printCurrentGeneration();
+	auto cipher = Cipher();
+	std::cout << cipher.ColumnarTranspositionCipherEncoder("kotipies", "012");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
