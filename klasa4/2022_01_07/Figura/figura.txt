@@ -1,0 +1,7 @@
+
+a) 19.75
+	Zastosowana metoda to uogólnienie całkowania numerycznego metodą trapezów - uwzględniony został potencjalny inny ogranicznik pola figury 
+	Inaczej rzecz ujmując metoda trapezów została niejawnie zastosowana dwukrotnie dla wyznaczenia pól pod (lub nad dla wartości poniżej OX) dwiema krzywymi i automatyczne przekształcenie ich (w zależności od położenia względem OX) jako wartości R+ lub R-
+
+b) 129.0
+	Całe zadanie polega na znalezieniu wartości, dla której odległość (w rozumieniu wartości absolutnej różnicy współrzędnej y). Można tego dokonać w sposób "przez machanie łapami" - iterując po kolejnych wartościach z danym pewnym ściśle określonym krokiem $ n \in \mathbb{R}_{+} $. Po znalezieniu tej wartości, należy do niej dodać 100, gdyż patrząc na wykersy funkcji dochodzimy do wniosku, że stale się od siebie "oddalają" (tj. zwiększa się wartość absolutna óżnicy współrzędnej y), więc dalsza analiza jest zbędna.
